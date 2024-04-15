@@ -1,0 +1,17 @@
+@use "base/variables" as v;
+
+.about_me{
+    display: flex;
+    flex-wrap: nowrap;
+    grid-area: about_me;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.logo{
+    max-width: 40%;
+    max-height: 90%;
+    display: block;
+    object-fit: contain;
+    filter: drop-shadow(4px 3px #57555581);
+}

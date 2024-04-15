@@ -1,0 +1,26 @@
+@use "base/variables" as v;
+
+.formation{
+    grid-area: formation;
+    border-radius: 20px;
+
+    p{
+        padding: 8px;
+    }
+}
+.links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    grid-area:  links;
+    border-radius: 20px;
+
+    a{
+        display: block;
+        color: v.$azul-profundo;
+        font-size: 35px;
+        margin: 4px;
+        text-decoration: none;
+    }
+}

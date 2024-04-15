@@ -1,0 +1,30 @@
+@use "base";
+@use "content";
+@use "layout";
+
+
+.porDefinir{
+    grid-area: porDefinir;
+    border-radius: 20px;
+}
+
+.porDefinir2{
+    grid-area: porDefinir2;
+    border-radius: 20px;
+}
+
+.grid {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(7, 100/7vw);
+    grid-template-rows: repeat(2,13vh) auto;
+    height: 96.3vh;
+    gap: 10px 12px;
+    grid-template-areas: 
+      "about_me about_me projects learning tools"
+      "about_me about_me projects learning tools"
+      "formation hobbies projects experience tools"
+      "porDefinir galery projects experience tools"
+      "porDefinir galery soft_skills soft_skills tools"
+      "links galery soft_skills soft_skills tools"   
+  }

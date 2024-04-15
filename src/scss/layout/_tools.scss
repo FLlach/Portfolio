@@ -1,0 +1,7 @@
+@use "base/variables" as v;
+@use "base/mixins" as m; 
+
+.tools {
+    border-radius: 20px;
+    grid-area:  tools;
+}

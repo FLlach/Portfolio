@@ -1,0 +1,20 @@
+@use "base/variables" as v;
+
+body{
+    background-color: v.$blanco;
+
+    p{
+        color: v.$azul-negro;
+    }
+}
+
+*{
+    font-family: "Montserrat alternates", "Montserrat", "Arial", sans-serif;
+}
+
+section{
+    background-color: v.$gris;
+    box-shadow: 2px 8px 8px 1px #57555581;
+}
+
+
